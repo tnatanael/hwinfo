@@ -14,7 +14,7 @@ Família da CPU:             6
 Modelo:                     142
 Nome do modelo:             Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
 Step:                       9
-CPU MHz:                    815.894
+CPU MHz:                    2648.457
 CPU MHz máx.:               3100,0000
 CPU MHz mín.:               400,0000
 BogoMIPS:                   5424.00
@@ -93,6 +93,10 @@ Memory Device
 Section: Storage
 -----------------------------------------------------------------
 [0:0:0:0]    disk    ATA      KINGSTON SA400S3 B1D2  /dev/sda 
+
+Section: Wifi
+-----------------------------------------------------------------
+*       Superlogica5G  Infra  36    405 Mbit/s  56      ▂▄▆_  WPA2     
 
 Section: Model
 -----------------------------------------------------------------

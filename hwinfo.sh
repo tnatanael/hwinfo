@@ -21,6 +21,12 @@ echo "-----------------------------------------------------------------">> hwinf
 lsscsi >> hwinfo.txt
 
 echo "" >> hwinfo.txt
+echo "Section: Wifi" >> hwinfo.txt
+echo "-----------------------------------------------------------------">> hwinfo.txt
+nmcli d wifi list | grep 5G >> hwinfo.txt
+
+
+echo "" >> hwinfo.txt
 echo "Section: Model" >> hwinfo.txt
 echo "-----------------------------------------------------------------">> hwinfo.txt
 dmidecode | grep -A3 '^System Information' >> hwinfo.txt
